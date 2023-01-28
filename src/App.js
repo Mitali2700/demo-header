@@ -1,12 +1,12 @@
-import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar'
-
+import Nav from './Components/Nav'
+import Home from './Components/Home'
 function App() {
   return (
-    <React.Fragment>
-      <Navbar />
-    </React.Fragment>
+    <>
+      <Nav />
+      <Home />
+    </>
   );
 }
 
